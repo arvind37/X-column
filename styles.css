@@ -83,4 +83,11 @@
     main {
       flex-direction: column;
     }
+
+    article .suv {
+      border-radius: 7px 7px 0px 0px;
+    }
+    article .luxury {
+      border-radius: 0px 0px 7px 7px;
+    }
   }
