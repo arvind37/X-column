@@ -84,10 +84,10 @@
       flex-direction: column;
     }
 
-    article .sedan {
+    article.sedan {
       border-radius: 7px 7px 0px 0px;
     }
-    article .luxury {
+    article.luxury {
       border-radius: 0px 0px 7px 7px;
     }
   }
