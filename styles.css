@@ -1,0 +1,86 @@
+  body {
+    font-family: "Lexend Deca", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+
+  article {
+    max-width: 200px;
+    height: 350px;
+    padding: 42px;
+    position: relative;
+  }
+
+  article h1,
+  article p {
+    color: #fff;
+    line-height: 30px;
+  }
+
+  article.sedan {
+    background-color: rgb(229, 124, 34);
+  }
+
+  article.suv {
+    background-color: rgb(0, 39, 95);
+  }
+
+  article.luxury {
+    background-color: rgb(11, 32, 56);
+  }
+
+  article.sedan button {
+    color: rgb(229, 124, 34);
+  }
+
+  article.suv button {
+    color: rgb(0, 39, 95);
+  }
+
+  article.luxury button {
+    color: rgb(11, 32, 56);
+  }
+
+  article button {
+    background-color: rgb(242, 242, 242);
+    border-radius: 25px;
+    border: 2px solid rgb(242, 242, 242);
+    padding: 15px 35px;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  footer p {
+    margin: 0px;
+  }
+
+
+  @media (max-width: 768px) {
+
+
+    main article {
+      width: 300px;
+    }
+
+    main {
+      flex-direction: column;
+    }
+  }
